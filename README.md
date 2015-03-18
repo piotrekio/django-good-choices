@@ -26,6 +26,10 @@ class Order(models.Model):
 Changelog
 ---------
 
+### 1.4
+
+* fix for choices with ``None`` as a value
+
 ### 1.3
 
 * fix name in metaclass
