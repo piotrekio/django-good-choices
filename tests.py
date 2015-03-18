@@ -46,3 +46,10 @@ def test_labels():
     assert hasattr(Ch, 'labels')
     assert 1 in Ch.labels
     assert Ch.labels[1] == 'a'
+
+
+def test_none():
+    class Ch(Choices):
+        A = None
+        B = None, None
+    assert Ch.choices == [(None, None), (None, None)]
