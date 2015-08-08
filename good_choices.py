@@ -5,7 +5,7 @@ import six
 
 __all__ = ['Choices', 'VERSION']
 
-VERSION = (1, 4)
+VERSION = (1, 5)
 
 
 class ChoicesMeta(type):

@@ -26,6 +26,10 @@ class Order(models.Model):
 Changelog
 ---------
 
+### 1.5
+
+* declare dependencies in the setup script
+
 ### 1.4
 
 * fix for choices with ``None`` as a value
